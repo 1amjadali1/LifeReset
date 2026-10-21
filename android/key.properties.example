@@ -1,0 +1,13 @@
+# Life Reset — Android Release Signing Properties Template
+# -------------------------------------------------------------
+# NEVER commit your real key.properties or .jks/.keystore files to Git!
+# This file is a safe template demonstrating the required keys.
+#
+# Once your production signing key is generated:
+# 1. Copy this file to 'android/key.properties' (which is git-ignored)
+# 2. Fill in your real keystore path and passwords.
+# -------------------------------------------------------------
+keyAlias=upload
+keyPassword=YOUR_KEY_PASSWORD_HERE
+storeFile=../upload-keystore.jks
+storePassword=YOUR_STORE_PASSWORD_HERE
